@@ -30,14 +30,10 @@ fim da função
 
 Implementação que passou:
 
-
-
+```java
 import java.io.*;
-
-
 import java.util.*;
  
-
 public class Main {
     
     static List<List<Pair>> graph;
@@ -166,4 +162,4 @@ public class Main {
         int nextInt() { return Integer.parseInt(next()); }
         long nextLong() { return Long.parseLong(next()); }
     }
-}
+}```
