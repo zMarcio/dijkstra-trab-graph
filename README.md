@@ -32,13 +32,19 @@ Implementação que passou:
 
 
 import java.io.*;
+
 import java.util.*;
  
 public class Main {
+    
     static List<List<Pair>> graph;
+    
     static int vertex;
+    
     static int edge;
+    
     static int[] parent;
+    
     static long[] dist;
  
     public static void main(String[] args) throws Exception {
